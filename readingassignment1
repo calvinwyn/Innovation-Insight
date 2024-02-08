@@ -4,7 +4,11 @@ CIS 4330
 Microservice might sound like the service is small, but we learn MSA is more about how it's packaged and deployed. 
 We should aknowledge how each microservice is independent and has usually only one responsibility. 
 Its independency is valuable becauase the failure of one microservice does not impact another microservice. 
-Miniservice can have more than one service/feature unlike Microservices. 
+Miniservices Architecture is a good middle ground between Monoliths and MSA. 
+Miniservcies share databases and libraries. 
+Some people see miniservices are a good alternative because there are less services to manage. 
+Another advantage to miniservices is how there is less traffic going on within services. 
+Miniservices are good for smaller companies because you don't need a team for each service. 
 I think the textbook gives a great breakdown to what benefits come with MSA: 
 Agility, risk reductiom, distributed development, technology flexibility, scalability, resiliency 
 Because of these benefits, many application software vendors lie about providing Mircoservices. 
@@ -12,3 +16,7 @@ Althought MSA can be very beneficial, we are told to think about adopting MSA.
 It can be costly and difficult to manage if the company is inexperienced. 
 Companies would want to make sure they have the devop skills to maintain MSA. 
 Some companies are reverting away from MSA because of high costs. 
+Another con could be the complexity of microservices since each component has its own intricacies. 
+Also because MSA run in different environments, it takes more effort to test. 
+You would also have to test each microservice before testing them altogether. 
+Companies also have to maintain each microservice since they are separate entities. 
